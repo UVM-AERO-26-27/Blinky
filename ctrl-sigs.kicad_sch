@@ -5,6 +5,450 @@
 	(uuid "952dd162-f1b4-4377-a1cf-f6f6c2a02ee6")
 	(paper "A4")
 	(lib_symbols
+		(symbol "AERO_Resistors:R_0805"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_0805"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+				(at 1.27 21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "125mW"
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(thickness 0.0794)
+					)
+				)
+			)
+			(property "Package" "0805"
+				(at 1.27 -2.54 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(thickness 0.0794)
+					)
+				)
+			)
+			(property "Tolerance" "x%"
+				(at 3.81 -2.54 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(thickness 0.0794)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0805_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0805_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AERO_Resistors:R_1206"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_1206"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 1.27 21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "250mW"
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(thickness 0.0794)
+					)
+				)
+			)
+			(property "Package" "1206"
+				(at 1.27 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(thickness 0.0794)
+					)
+				)
+			)
+			(property "Tolerance" "x%"
+				(at 3.81 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(thickness 0.0794)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_1206_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1206_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -550,7 +994,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:LTV-817S"
+		(symbol "LTV-817S_1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -634,7 +1078,7 @@
 					)
 				)
 			)
-			(symbol "LTV-817S_1_1"
+			(symbol "LTV-817S_1_1_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -720,7 +1164,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
+						(xy 2.54 1.905) (xy 2.54 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -744,7 +1188,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
 					)
 					(stroke
 						(width 0)
@@ -1461,7 +1905,7 @@
 		)
 	)
 	(rectangle
-		(start 71.12 52.07)
+		(start 55.88 52.07)
 		(end 127 162.56)
 		(stroke
 			(width 0.508)
@@ -1484,30 +1928,9 @@
 		)
 		(uuid "0e2197db-c262-4e95-85d9-4934a7336c84")
 	)
-	(text "0.25W"
-		(exclude_from_sim no)
-		(at 157.734 65.024 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6a89eec4-a8f2-4aa4-a19f-5c7ce108b37e")
-	)
-	(text "DNP"
-		(exclude_from_sim no)
-		(at 156.464 112.014 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "809133b6-af8a-42b0-902f-e4d371b0ce3f")
-	)
 	(text "DNP this network"
 		(exclude_from_sim no)
-		(at 91.948 82.55 0)
+		(at 83.058 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1527,16 +1950,6 @@
 		)
 		(uuid "b619a1b6-93d9-4888-a4fd-2ce7673068d6")
 	)
-	(text "0.25W"
-		(exclude_from_sim no)
-		(at 140.97 122.174 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "baa3f86a-94fd-409c-a769-031f908dfe71")
-	)
 	(text "Pull high to disable"
 		(exclude_from_sim no)
 		(at 154.432 125.222 0)
@@ -1550,7 +1963,7 @@
 	)
 	(text "HIGH\nVOLTAGE"
 		(exclude_from_sim no)
-		(at 72.898 63.246 0)
+		(at 57.658 62.992 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -1563,7 +1976,13 @@
 		(uuid "f784306d-50fe-4e27-bc12-087b5e669ed9")
 	)
 	(junction
-		(at 102.87 119.38)
+		(at 158.75 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2135f80a-dd8d-49a2-9c15-ce96470b0346")
+	)
+	(junction
+		(at 93.98 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a71ec28-db67-4f0e-be42-d42a14e9a540")
@@ -1575,44 +1994,38 @@
 		(uuid "39e30fd7-9d7f-482a-bcb1-ea2513a126e1")
 	)
 	(junction
-		(at 107.95 96.52)
+		(at 99.06 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fa2bafa-581c-4181-a641-29dcf28d5ee5")
 	)
 	(junction
-		(at 102.87 96.52)
+		(at 93.98 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a543531-58b3-4509-a151-4822f767d5c3")
 	)
 	(junction
-		(at 102.87 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d613e12-3b92-404b-92e9-d2e81a3c50b0")
-	)
-	(junction
-		(at 102.87 82.55)
+		(at 93.98 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8da077bf-0df6-48ec-b9e8-0d88c34b7f60")
 	)
 	(junction
-		(at 102.87 69.85)
+		(at 93.98 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f13d645-9708-408a-8d0b-c13500a352a8")
 	)
 	(junction
-		(at 147.32 119.38)
+		(at 93.98 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a337cebc-66cb-44d8-8ea7-c7dbf158e908")
+		(uuid "d9495f5b-25f1-46cc-b7cf-14c4915036be")
 	)
 	(wire
 		(pts
-			(xy 102.87 119.38) (xy 119.38 119.38)
+			(xy 93.98 119.38) (xy 119.38 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +2035,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 59.69) (xy 147.32 60.96)
+			(xy 147.32 58.42) (xy 147.32 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1632,7 +2045,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 138.43) (xy 102.87 138.43)
+			(xy 158.75 119.38) (xy 177.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096633c0-6744-4a05-874a-097264e0c900")
+	)
+	(wire
+		(pts
+			(xy 76.2 138.43) (xy 93.98 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1642,7 +2065,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 119.38) (xy 102.87 119.38)
+			(xy 76.2 119.38) (xy 93.98 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1652,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 115.57) (xy 147.32 119.38)
+			(xy 158.75 115.57) (xy 158.75 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1662,7 +2085,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 119.38) (xy 147.32 119.38)
+			(xy 148.59 119.38) (xy 158.75 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1672,7 +2095,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 96.52) (xy 107.95 96.52)
+			(xy 93.98 96.52) (xy 99.06 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +2105,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 49.53) (xy 147.32 52.07)
+			(xy 147.32 48.26) (xy 147.32 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1702,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 69.85) (xy 119.38 69.85)
+			(xy 93.98 69.85) (xy 119.38 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1712,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 82.55) (xy 102.87 85.09)
+			(xy 93.98 82.55) (xy 93.98 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1722,7 +2145,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 92.71) (xy 102.87 96.52)
+			(xy 93.98 92.71) (xy 93.98 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1742,7 +2165,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 119.38) (xy 102.87 124.46)
+			(xy 93.98 119.38) (xy 93.98 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1752,7 +2175,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 132.08) (xy 102.87 138.43)
+			(xy 93.98 132.08) (xy 93.98 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1762,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 105.41) (xy 147.32 107.95)
+			(xy 158.75 105.41) (xy 158.75 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1782,7 +2205,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 69.85) (xy 102.87 69.85)
+			(xy 76.2 69.85) (xy 93.98 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1792,7 +2215,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 107.95 85.09)
+			(xy 116.84 96.52) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e52fd2-2b68-4330-a24a-33ee16ac0b87")
+	)
+	(wire
+		(pts
+			(xy 99.06 82.55) (xy 99.06 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1812,7 +2245,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 154.94) (xy 113.03 154.94)
+			(xy 86.36 154.94) (xy 104.14 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1842,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 82.55) (xy 107.95 82.55)
+			(xy 93.98 82.55) (xy 99.06 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1862,7 +2295,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 80.01) (xy 102.87 82.55)
+			(xy 93.98 80.01) (xy 93.98 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1872,23 +2305,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 96.52) (xy 116.84 96.52)
+			(xy 99.06 96.52) (xy 116.84 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b8d4b851-e905-4c9d-9ad2-e2d29add496e")
-	)
-	(wire
-		(pts
-			(xy 147.32 119.38) (xy 177.8 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdc61f9e-8fe7-482d-8d40-e56e053d673a")
 	)
 	(wire
 		(pts
@@ -1899,16 +2322,6 @@
 			(type default)
 		)
 		(uuid "d551385d-b6fb-4557-a08c-ba3e68d12568")
-	)
-	(wire
-		(pts
-			(xy 116.84 87.63) (xy 116.84 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6028974-66e6-4a97-b01e-bf25836a2f9b")
 	)
 	(wire
 		(pts
@@ -1932,7 +2345,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 119.38) (xy 134.62 119.38)
+			(xy 140.97 119.38) (xy 134.62 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +2355,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 69.85) (xy 102.87 72.39)
+			(xy 93.98 69.85) (xy 93.98 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1962,7 +2375,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 92.71) (xy 107.95 96.52)
+			(xy 99.06 92.71) (xy 99.06 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1972,7 +2385,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 96.52) (xy 102.87 96.52)
+			(xy 76.2 96.52) (xy 93.98 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 138.43) (xy 116.84 138.43)
+			(xy 93.98 138.43) (xy 116.84 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1991,7 +2404,7 @@
 		(uuid "fdad5375-52ad-459f-a2d7-c22afc9078ec")
 	)
 	(label "INVERTER-"
-		(at 85.09 96.52 0)
+		(at 76.2 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2001,7 +2414,7 @@
 		(uuid "1e23a9f1-5c1b-4819-b3f9-8f53017a0b99")
 	)
 	(label "INVERTER-"
-		(at 85.09 138.43 0)
+		(at 76.2 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2011,7 +2424,7 @@
 		(uuid "68edb936-c484-4cde-a890-2f9efcb1ce05")
 	)
 	(label "INVERTER-"
-		(at 113.03 154.94 180)
+		(at 104.14 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2033,7 +2446,7 @@
 	)
 	(hierarchical_label "INVERTER-"
 		(shape input)
-		(at 95.25 154.94 180)
+		(at 86.36 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2044,7 +2457,7 @@
 	)
 	(hierarchical_label "HV_EN"
 		(shape output)
-		(at 85.09 119.38 180)
+		(at 76.2 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2055,7 +2468,7 @@
 	)
 	(hierarchical_label "HV_FAULT"
 		(shape input)
-		(at 85.09 69.85 180)
+		(at 76.2 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2077,7 +2490,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 102.87 88.9 270)
+		(at 93.98 88.9 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2087,8 +2500,8 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "02626a0c-8668-48b5-b50e-d8a7e2ae5244")
-		(property "Reference" "D4"
-			(at 99.06 89.2174 90)
+		(property "Reference" "D3"
+			(at 90.17 89.2174 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2099,7 +2512,7 @@
 			)
 		)
 		(property "Value" "LTST-C171KRKT"
-			(at 100.33 91.7574 90)
+			(at 91.44 91.7574 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2110,7 +2523,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 102.87 88.9 0)
+			(at 93.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2121,7 +2534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 88.9 0)
+			(at 93.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2132,7 +2545,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 102.87 88.9 0)
+			(at 93.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2143,7 +2556,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 102.87 88.9 0)
+			(at 93.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2162,7 +2575,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2180,7 +2593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b4f9b3-db71-43fd-96b5-74c6c7ab545c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 135.89 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2240,7 +2653,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2248,7 +2661,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 147.32 55.88 90)
+		(at 147.32 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2258,8 +2671,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12bc7b78-baba-4410-9023-f917ddade98f")
-		(property "Reference" "D5"
-			(at 151.13 56.1974 90)
+		(property "Reference" "D4"
+			(at 151.13 54.9274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2270,7 +2683,7 @@
 			)
 		)
 		(property "Value" "LTST-C171KRKT"
-			(at 151.13 58.7374 90)
+			(at 151.13 57.4674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2281,7 +2694,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 147.32 55.88 0)
+			(at 147.32 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,7 +2705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 55.88 0)
+			(at 147.32 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2303,7 +2716,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 147.32 55.88 0)
+			(at 147.32 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2314,7 +2727,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 147.32 55.88 0)
+			(at 147.32 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2333,7 +2746,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2341,7 +2754,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 102.87 128.27 0)
+		(at 93.98 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2351,8 +2764,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c00b0cf-6ce6-43da-84de-1b5510347f9d")
-		(property "Reference" "C8"
-			(at 106.68 126.9999 0)
+		(property "Reference" "C7"
+			(at 97.79 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2363,7 +2776,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 106.68 129.5399 0)
+			(at 97.79 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2374,7 +2787,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 103.8352 132.08 0)
+			(at 94.9452 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2385,7 +2798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 128.27 0)
+			(at 93.98 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2396,7 +2809,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 102.87 128.27 0)
+			(at 93.98 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2415,7 +2828,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2433,7 +2846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29fd170a-40d7-4117-acc5-035d9cc4c934")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR011"
 			(at 135.89 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2493,89 +2906,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 147.32 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d48cd34-09a0-44a4-928f-a04d1a16a165")
-		(property "Reference" "R29"
-			(at 149.86 63.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "500"
-			(at 149.86 66.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 148.336 65.024 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 147.32 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "675ca3ce-3a7a-4ca6-8c3d-b1636e305112")
-		)
-		(pin "2"
-			(uuid "db950bb5-47fc-4333-85c5-6089a80cc857")
-		)
-		(instances
-			(project "Blinky"
-				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "R29")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2594,7 +2925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61d77653-13ca-4883-9424-a36ce1fe8e99")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 127 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2664,149 +2995,48 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "U6")
+					(reference "U3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 147.32 111.76 0)
+		(lib_id "AERO_Resistors:R_1206")
+		(at 147.32 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(uuid "76f8aecf-1ac5-4f73-bb4b-6a9af1fe7cf1")
-		(property "Reference" "R28"
-			(at 150.622 110.744 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 150.622 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 148.336 112.014 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 147.32 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey part number" "RMCF0603FT1K00CT-ND"
-			(at 147.32 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RMCF0603FT1K00"
-			(at 147.32 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6a4aa28-ca74-432f-819c-31a2b699d219")
-		)
-		(pin "2"
-			(uuid "cf7372a6-d711-4654-aef3-42a01509de27")
-		)
-		(instances
-			(project "Blinky"
-				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 102.87 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7858f52d-cdba-4499-98e0-7b16edb0e8f6")
-		(property "Reference" "R15"
-			(at 105.41 74.9299 0)
+		(uuid "684f87fc-77ee-4a33-8107-98985763a493")
+		(property "Reference" "R13"
+			(at 149.86 61.5949 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 105.41 77.4699 0)
+		(property "Value" "500"
+			(at 149.86 64.1349 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 103.886 76.454 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 125.73 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2817,7 +3047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 76.2 0)
+			(at 147.32 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2828,7 +3058,125 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 102.87 76.2 0)
+			(at 132.08 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "250mW"
+			(at 149.86 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" "1206"
+			(at 149.86 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 149.86 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "c5b31f02-a64f-4b6b-8adf-b9ea998163c5")
+		)
+		(pin "2"
+			(uuid "8acf5f18-962f-413d-b7ce-4d6956f495e7")
+		)
+		(instances
+			(project "Blinky"
+				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 93.98 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "7858f52d-cdba-4499-98e0-7b16edb0e8f6")
+		(property "Reference" "R9"
+			(at 96.52 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 96.52 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 94.996 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 93.98 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2847,7 +3195,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "R15")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2855,7 +3203,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 147.32 49.53 0)
+		(at 147.32 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2866,7 +3214,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cde5844-4400-4800-99df-63d69ba3de2a")
 		(property "Reference" "#PWR012"
-			(at 147.32 53.34 0)
+			(at 147.32 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2877,7 +3225,7 @@
 			)
 		)
 		(property "Value" "TSMS12V"
-			(at 147.32 44.45 0)
+			(at 147.32 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2887,7 +3235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 49.53 0)
+			(at 147.32 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2898,7 +3246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 49.53 0)
+			(at 147.32 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2909,7 +3257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 147.32 49.53 0)
+			(at 147.32 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2933,7 +3281,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 147.32 105.41 0)
+		(at 158.75 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2943,8 +3291,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8205b243-d381-4d48-9108-d39cdda089c4")
-		(property "Reference" "#PWR011"
-			(at 147.32 109.22 0)
+		(property "Reference" "#PWR013"
+			(at 158.75 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,7 +3303,7 @@
 			)
 		)
 		(property "Value" "TSMS12V"
-			(at 147.32 100.33 0)
+			(at 158.75 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2965,7 +3313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 105.41 0)
+			(at 158.75 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2976,7 +3324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 105.41 0)
+			(at 158.75 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2987,7 +3335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 147.32 105.41 0)
+			(at 158.75 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3003,7 +3351,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3011,108 +3359,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 116.84 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "84eddef2-a748-4ac6-85ff-c4f64ed7f389")
-		(property "Reference" "R26"
-			(at 120.65 82.423 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3k"
-			(at 120.65 84.7344 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 115.824 83.566 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 116.84 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey part number" "RMCF0603FT1K00CT-ND"
-			(at 116.84 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RMCF0603FT1K00"
-			(at 116.84 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21e7967a-cba4-4e8e-b0ff-e81e34e59c39")
-		)
-		(pin "2"
-			(uuid "633372a3-8824-447f-a1d1-0bfd36461b8d")
-		)
-		(instances
-			(project "Blinky"
-				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 107.95 88.9 180)
+		(at 99.06 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3121,8 +3368,8 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "a4c22e16-54be-49bf-8f61-30d169aef805")
-		(property "Reference" "R16"
-			(at 111.76 87.503 0)
+		(property "Reference" "R10"
+			(at 102.87 87.503 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3132,7 +3379,7 @@
 			)
 		)
 		(property "Value" "50k"
-			(at 111.76 89.8144 0)
+			(at 102.87 89.8144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3142,7 +3389,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 106.934 88.646 90)
+			(at 98.044 88.646 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3153,7 +3400,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 107.95 88.9 0)
+			(at 99.06 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3164,7 +3411,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 88.9 0)
+			(at 99.06 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3175,7 +3422,7 @@
 			)
 		)
 		(property "Digikey part number" "RMCF0603FT1K00CT-ND"
-			(at 107.95 88.9 0)
+			(at 99.06 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3186,7 +3433,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RMCF0603FT1K00"
-			(at 107.95 88.9 0)
+			(at 99.06 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3205,15 +3452,15 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "R16")
+					(reference "R10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 140.97 119.38 270)
+		(lib_id "AERO_Resistors:R_0805")
+		(at 116.84 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3221,29 +3468,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b2f55a44-a78e-4a2d-8cb0-65a31086c831")
-		(property "Reference" "R27"
-			(at 140.97 114.173 90)
+		(uuid "ade72453-1bc5-4529-9ae4-be8b36eaba40")
+		(property "Reference" "R11"
+			(at 119.38 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 140.97 116.4844 90)
+		(property "Value" "R_0805"
+			(at 119.38 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 140.716 120.396 90)
+			(at 138.43 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3253,8 +3502,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 140.97 119.38 0)
+		(property "Datasheet" ""
+			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3264,8 +3513,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 140.97 119.38 0)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3275,44 +3524,287 @@
 				)
 			)
 		)
-		(property "Digikey part number" "RMCF0603FT1K00CT-ND"
-			(at 140.97 119.38 0)
-			(hide yes)
+		(property "Power" "125mW"
+			(at 113.538 82.804 90)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
+					(thickness 0.0794)
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RMCF0603FT1K00"
-			(at 140.97 119.38 0)
-			(hide yes)
+		(property "Package" "0805"
+			(at 113.538 84.074 90)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Tolerance" "x%"
+			(at 113.538 85.344 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
 				)
 			)
 		)
 		(pin "1"
-			(uuid "071f82bd-a51d-489d-a9e6-d8c30d8c3222")
+			(uuid "ef4f776c-cede-4f13-8212-698970d56771")
 		)
 		(pin "2"
-			(uuid "afa8cf7c-bae3-4e79-9112-93f19c5a718a")
+			(uuid "90d1fa63-c32d-4a15-b0d3-ab043bec9e49")
 		)
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "R27")
+					(reference "R11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "AERO_Resistors:R_1206")
+		(at 158.75 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c2e78d8e-7794-45a1-8add-f7f09a8bb456")
+		(property "Reference" "R14"
+			(at 161.29 108.5849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 161.29 111.1249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 137.16 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "250mW"
+			(at 161.29 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" "1206"
+			(at 161.29 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 161.29 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "1c82e6a2-fb4d-4f05-81d7-628cc9ca4c61")
+		)
+		(pin "1"
+			(uuid "74ec11c6-9d5b-4eb3-bbfa-1fb6483bf594")
+		)
+		(instances
+			(project "Blinky"
+				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AERO_Resistors:R_1206")
+		(at 144.78 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb778c0e-c75d-40c0-a953-319ed849c32d")
+		(property "Reference" "R12"
+			(at 144.78 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500"
+			(at 144.78 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 146.05 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 144.78 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "250mW"
+			(at 144.78 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Package" "1206"
+			(at 144.78 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 144.78 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b3c852da-5a46-469a-8329-a283cdaf7865")
+		)
+		(pin "1"
+			(uuid "0fe76a96-a03d-47b0-8688-f0884d78f453")
+		)
+		(instances
+			(project "Blinky"
+				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LTV-817S_1")
 		(lib_id "Isolator:LTV-817S")
 		(at 127 121.92 0)
 		(mirror y)
@@ -3323,9 +3815,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d5236c55-cd56-412f-8002-9ded5a410dc3")
-		(property "Reference" "U5"
-			(at 127 113.665 0)
+		(uuid "f06df5f3-453d-4487-b6d9-635a774a0a3e")
+		(property "Reference" "U4"
+			(at 127 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3335,7 +3827,7 @@
 			)
 		)
 		(property "Value" "LTV-817S"
-			(at 127 115.9764 0)
+			(at 127 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3355,7 +3847,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20%20Rev.S.PDF"
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
 			(at 135.89 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3366,29 +3858,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 127 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey part number" "160-1367-5-ND"
-			(at 127 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LTV-817S"
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
 			(at 127 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3400,21 +3870,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "c6b6dd1b-e521-461a-9ab5-2823a5b3f020")
-		)
-		(pin "2"
-			(uuid "3381d47a-c2d5-4204-aa0a-bfe867eba2b9")
-		)
-		(pin "3"
-			(uuid "48d4bb7f-8daa-417e-8434-d64dbef86cba")
+			(uuid "cfdbe400-e540-459a-bd27-74d2f6c03f86")
 		)
 		(pin "4"
-			(uuid "d2c89b6e-e547-4af2-a6c6-40f7aa37952e")
+			(uuid "cc21bc2a-0b3e-4ce9-b46a-0fec39559ed1")
+		)
+		(pin "3"
+			(uuid "c3402bb5-00e2-4d42-88f7-ecbbea820241")
+		)
+		(pin "2"
+			(uuid "fe54558c-9013-4303-afe3-402f39ff2a2a")
 		)
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/5ecaee5b-bcac-4dc8-b824-03b69650085b"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)

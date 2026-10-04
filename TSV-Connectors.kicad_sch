@@ -203,6 +203,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 105.41) (xy 144.78 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d20e50-a8c9-4bdb-a16d-ad209981b198")
+	)
+	(wire
+		(pts
 			(xy 134.62 107.95) (xy 144.78 107.95)
 		)
 		(stroke
@@ -210,16 +220,6 @@
 			(type default)
 		)
 		(uuid "48177c6c-d3a9-4854-b455-2fe2b58fa186")
-	)
-	(wire
-		(pts
-			(xy 134.62 105.41) (xy 144.78 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6b4d60-c789-4711-b5e1-6c4333ef4986")
 	)
 	(hierarchical_label "INVERTER-"
 		(shape output)
@@ -245,7 +245,8 @@
 	)
 	(symbol
 		(lib_id "AERO_Connectors:2002411132")
-		(at 149.86 105.41 0)
+		(at 149.86 107.95 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -253,10 +254,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1206ed4d-6797-48f3-ba73-fc9348d4540d")
-		(property "Reference" "J3"
-			(at 152.4 105.4099 0)
+		(property "Reference" "J4"
+			(at 152.4 107.9501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -267,7 +267,7 @@
 			)
 		)
 		(property "Value" "2002411132"
-			(at 152.4 107.9499 0)
+			(at 152.4 105.4101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -278,7 +278,7 @@
 			)
 		)
 		(property "Footprint" "AERO_Connectors:2002411132"
-			(at 149.86 105.41 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -289,7 +289,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2002411132?display=pdf"
-			(at 149.86 105.41 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -300,7 +300,7 @@
 			)
 		)
 		(property "Description" "molex mega fit, male, single row, 01x02,"
-			(at 149.86 105.41 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -319,7 +319,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/e09c43e6-d1ac-424f-8f6f-b32a45a91117"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)

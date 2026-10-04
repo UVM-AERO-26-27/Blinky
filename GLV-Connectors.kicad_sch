@@ -995,6 +995,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Zener_Small"
 			(pin_numbers
 				(hide yes)
@@ -1161,6 +1317,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1299,7 +1594,7 @@
 	)
 	(text "connector to Pacmania"
 		(exclude_from_sim no)
-		(at 238.506 78.486 0)
+		(at 253.746 76.454 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1326,6 +1621,12 @@
 		(uuid "3c0b8abc-9a53-4d99-b7df-1a9dc8cbdff0")
 	)
 	(junction
+		(at 57.15 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f71fdd0-6809-4d5d-8441-56c2f30700e9")
+	)
+	(junction
 		(at 173.99 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1350,16 +1651,10 @@
 		(uuid "81c9f37f-001a-4bfb-b3bf-cae849337ae3")
 	)
 	(junction
-		(at 232.41 91.44)
+		(at 44.45 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "88739c3f-9313-4764-bf48-124e2e462514")
-	)
-	(junction
-		(at 57.15 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a489167-f96f-4f4f-b090-70b3dc07f8de")
+		(uuid "85080093-ec03-4282-a399-9c825f61f867")
 	)
 	(junction
 		(at 74.93 127)
@@ -1435,13 +1730,23 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 83.82) (xy 232.41 91.44)
+			(xy 44.45 80.01) (xy 44.45 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1da5e381-b823-4933-b82b-adb02fb423ee")
+		(uuid "2a37e46d-0571-4ba5-b3da-86559aa7a04b")
+	)
+	(wire
+		(pts
+			(xy 232.41 81.28) (xy 232.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bcd5c39-8ba3-4f9a-bc3c-6bf1e28dac13")
 	)
 	(wire
 		(pts
@@ -1455,6 +1760,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 80.01) (xy 57.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4629b985-5baa-4a2b-9932-10ae3b7ef3f8")
+	)
+	(wire
+		(pts
 			(xy 233.68 83.82) (xy 232.41 83.82)
 		)
 		(stroke
@@ -1465,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 80.01) (xy 57.15 80.01)
+			(xy 35.56 80.01) (xy 44.45 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1785,6 +2100,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 90.17) (xy 44.45 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc649219-b631-466c-bcce-d24e58a077c2")
+	)
+	(wire
+		(pts
 			(xy 173.99 80.01) (xy 172.72 80.01)
 		)
 		(stroke
@@ -1856,7 +2181,7 @@
 	)
 	(hierarchical_label "VICOR_FILTERED"
 		(shape input)
-		(at 49.53 80.01 180)
+		(at 35.56 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1888,7 +2213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02aee3c9-44f8-4776-9955-b243b6bb4078")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR01"
 			(at 74.93 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1948,7 +2273,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/70faeeae-47f6-429d-8ba0-c92aaf30ffe6"
-					(reference "#PWR027")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1966,7 +2291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04cd2cc4-a19c-4e0c-8aec-70e2141f15b4")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 166.37 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2034,7 +2359,99 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/70faeeae-47f6-429d-8ba0-c92aaf30ffe6"
-					(reference "J2")
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 44.45 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07023c6b-70ab-413a-98f7-ac9284c9fb36")
+		(property "Reference" "C8"
+			(at 39.37 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 37.084 88.646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm"
+			(at 44.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey part number" ""
+			(at 44.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "095036ef-c397-456e-b977-ca81f37c1234")
+		)
+		(pin "2"
+			(uuid "c800e6d9-ed85-4fd4-95e7-3a63df3fefd7")
+		)
+		(instances
+			(project "Blinky"
+				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/70faeeae-47f6-429d-8ba0-c92aaf30ffe6"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2168,7 +2585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "183089af-d36c-4331-9ab9-6517d8a8e971")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR03"
 			(at 158.75 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2228,7 +2645,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/70faeeae-47f6-429d-8ba0-c92aaf30ffe6"
-					(reference "#PWR026")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2246,7 +2663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e1f0d65-a932-400c-aa04-f14329715cdf")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 241.3 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2316,7 +2733,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/70faeeae-47f6-429d-8ba0-c92aaf30ffe6"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2333,7 +2750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2821853c-308a-4ac2-98eb-4aa04e136624")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR05"
 			(at 232.41 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2393,7 +2810,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/70faeeae-47f6-429d-8ba0-c92aaf30ffe6"
-					(reference "#PWR025")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2492,7 +2909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3efec9be-3173-410f-b2c7-0e55f8664e3a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR04"
 			(at 173.99 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2552,7 +2969,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/70faeeae-47f6-429d-8ba0-c92aaf30ffe6"
-					(reference "#PWR024")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2687,7 +3104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "583cb195-20fc-46bf-b8d0-4ddbeb4713bb")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 166.37 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2755,7 +3172,7 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/70faeeae-47f6-429d-8ba0-c92aaf30ffe6"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2855,7 +3272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5b4426f-f1a7-40f6-a23b-c9feb1f50412")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR02"
 			(at 74.93 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -2915,7 +3332,163 @@
 		(instances
 			(project "Blinky"
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/70faeeae-47f6-429d-8ba0-c92aaf30ffe6"
-					(reference "#PWR028")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 93.98 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be734eb2-499d-4fd1-88ea-9b37a147003f")
+		(property "Reference" "#PWR015"
+			(at 44.45 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LV_GND"
+			(at 43.942 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c248905-989e-4a1f-9258-808aa401866d")
+		)
+		(instances
+			(project "Blinky"
+				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/70faeeae-47f6-429d-8ba0-c92aaf30ffe6"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 232.41 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c26428b8-9fcc-4a6b-afbf-a3b0a12faf92")
+		(property "Reference" "#PWR014"
+			(at 232.41 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSMS12V"
+			(at 232.41 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b29ed870-cedf-4d3d-b862-e5d2ed36bc4f")
+		)
+		(instances
+			(project "Blinky"
+				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/70faeeae-47f6-429d-8ba0-c92aaf30ffe6"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)

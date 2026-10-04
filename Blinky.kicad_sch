@@ -6,6 +6,12 @@
 	(paper "A3")
 	(lib_symbols)
 	(junction
+		(at 260.35 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "662b11ca-70a8-49fd-8967-0a2bf9058aa0")
+	)
+	(junction
 		(at 176.53 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -34,12 +40,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6894449-6b33-4999-873b-996a151ccfee")
-	)
-	(junction
-		(at 260.35 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e770bcf1-f81e-4e5d-9a06-25bcbb6e2e70")
 	)
 	(wire
 		(pts
@@ -113,7 +113,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 128.27) (xy 260.35 128.27)
+			(xy 241.3 130.81) (xy 260.35 130.81)
 		)
 		(stroke
 			(width 0)
@@ -123,7 +123,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 95.25) (xy 281.94 95.25)
+			(xy 260.35 93.98) (xy 281.94 93.98)
 		)
 		(stroke
 			(width 0)
@@ -223,7 +223,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 95.25) (xy 260.35 95.25)
+			(xy 241.3 93.98) (xy 260.35 93.98)
 		)
 		(stroke
 			(width 0)
@@ -263,7 +263,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 128.27) (xy 260.35 95.25)
+			(xy 260.35 93.98) (xy 260.35 130.81)
 		)
 		(stroke
 			(width 0)
@@ -370,7 +370,7 @@
 			)
 		)
 		(pin "VICOR_FILTERED" output
-			(at 241.3 95.25 0)
+			(at 241.3 93.98 0)
 			(uuid "0bdb416f-29c8-48db-829e-d1a39d6f8212")
 			(effects
 				(font
@@ -466,7 +466,7 @@
 			)
 		)
 		(pin "VICOR_FILTERED" output
-			(at 241.3 128.27 0)
+			(at 241.3 130.81 0)
 			(uuid "8c420f9d-9d02-4e57-a32e-22269f1dd353")
 			(effects
 				(font
@@ -590,8 +590,8 @@
 		)
 	)
 	(sheet
-		(at 281.94 81.28)
-		(size 31.75 95.25)
+		(at 281.94 80.01)
+		(size 31.75 96.52)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -606,7 +606,7 @@
 		)
 		(uuid "70faeeae-47f6-429d-8ba0-c92aaf30ffe6")
 		(property "Sheetname" "GLV Connectors"
-			(at 281.94 80.5684 0)
+			(at 281.94 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -648,7 +648,7 @@
 			)
 		)
 		(pin "VICOR_FILTERED" input
-			(at 281.94 95.25 180)
+			(at 281.94 93.98 180)
 			(uuid "ee1c62b5-f5a7-459d-be37-add5ef8ed6d7")
 			(effects
 				(font
