@@ -5,7 +5,7 @@
 	(uuid "442d39e2-d341-451e-903c-301ef72d993e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "AERO_Fuses:Schurter 0031.8201"
+		(symbol "AERO_Fuses:Schurter 0031.8221"
 			(pin_numbers
 				(hide yes)
 			)
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Value" "0031.8201"
+			(property "Value" "0031.8221"
 				(at 0 1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -38,7 +38,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
+			(property "Footprint" "AERO_Fuses:Schurter 0031.8221"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -71,7 +71,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "keystone 3568 fuse holder"
+			(property "ki_keywords" "schurter 0031.8221 fuse holder"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -93,7 +93,7 @@
 					)
 				)
 			)
-			(symbol "Schurter 0031.8201_0_1"
+			(symbol "Schurter 0031.8221_0_1"
 				(rectangle
 					(start -1.27 0.508)
 					(end 1.27 -0.508)
@@ -118,7 +118,7 @@
 					)
 				)
 			)
-			(symbol "Schurter 0031.8201_1_1"
+			(symbol "Schurter 0031.8221_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
@@ -1253,7 +1253,7 @@
 	)
 	(text "Input Filtering"
 		(exclude_from_sim no)
-		(at 66.802 108.458 0)
+		(at 47.752 108.712 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
@@ -1925,90 +1925,6 @@
 			(justify right)
 		)
 		(uuid "b85f72e4-76cc-40aa-88e3-e148d1879c85")
-	)
-	(symbol
-		(lib_id "AERO_Fuses:Schurter 0031.8201")
-		(at 71.12 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17d9a0f8-d537-49f3-9a9d-ad5fda1fb797")
-		(property "Reference" "F1"
-			(at 71.12 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0031.8201"
-			(at 71.12 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
-			(at 71.12 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse, small symbol"
-			(at 71.12 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b853df6a-57f6-4468-a4de-7a5874d414e7")
-		)
-		(pin "2"
-			(uuid "e12890e8-9641-4005-992d-8dbd70761ac4")
-		)
-		(instances
-			(project "Blinky"
-				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/0d1a1f78-7eab-4d69-9e79-2fac59526835"
-					(reference "F1")
-					(unit 1)
-				)
-				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/1e68ee3b-d7f5-4ed7-bc45-3e506b43dc1b"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2914,6 +2830,90 @@
 				)
 				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/1e68ee3b-d7f5-4ed7-bc45-3e506b43dc1b"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AERO_Fuses:Schurter 0031.8221")
+		(at 71.12 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0d6f40c-681c-4577-ae8c-d04ac236c21a")
+		(property "Reference" "F1"
+			(at 71.12 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0031.8221"
+			(at 71.12 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERO_Fuses:Schurter 0031.8221"
+			(at 71.12 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 71.12 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "64147eae-9d07-4176-ae6c-c17ad8471373")
+		)
+		(pin "1"
+			(uuid "f4700a03-6407-4932-b5b7-d03c56dedd9b")
+		)
+		(instances
+			(project "Blinky"
+				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/0d1a1f78-7eab-4d69-9e79-2fac59526835"
+					(reference "F1")
+					(unit 1)
+				)
+				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/1e68ee3b-d7f5-4ed7-bc45-3e506b43dc1b"
+					(reference "F2")
 					(unit 1)
 				)
 			)
