@@ -1,0 +1,328 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "442d39e2-d341-451e-903c-301ef72d993e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "AERO_Connectors:2002411132"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2002411132"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AERO_Connectors:2002411132"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2002411132?display=pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "molex mega fit, male, single row, 01x02,"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "molex mega fit male connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2002411132_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 86.36 82.55)
+		(end 195.58 121.92)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5a4c2f5b-5487-44d2-8521-2a4e84748706")
+	)
+	(text "connector rated for 600VDC and 30 A per pin"
+		(exclude_from_sim no)
+		(at 140.97 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14cc844e-3af8-4870-af35-910ee4ef6c00")
+	)
+	(text "HIGH\nVOLTAGE"
+		(exclude_from_sim no)
+		(at 88.392 93.98 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+				(thickness 0.5994)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "53276a3b-2584-406e-b711-5dbee27bf1ed")
+	)
+	(wire
+		(pts
+			(xy 134.62 105.41) (xy 144.78 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d20e50-a8c9-4bdb-a16d-ad209981b198")
+	)
+	(wire
+		(pts
+			(xy 134.62 107.95) (xy 144.78 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48177c6c-d3a9-4854-b455-2fe2b58fa186")
+	)
+	(hierarchical_label "INVERTER-"
+		(shape output)
+		(at 134.62 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28b09d4d-8309-4ee5-be14-b96544618d99")
+	)
+	(hierarchical_label "INVERTER+"
+		(shape output)
+		(at 134.62 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49a400fc-1cbc-4867-b5c8-5476e9d19f3d")
+	)
+	(symbol
+		(lib_id "AERO_Connectors:2002411132")
+		(at 149.86 107.95 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1206ed4d-6797-48f3-ba73-fc9348d4540d")
+		(property "Reference" "J4"
+			(at 152.4 107.9501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2002411132"
+			(at 152.4 105.4101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AERO_Connectors:2002411132"
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2002411132?display=pdf"
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "molex mega fit, male, single row, 01x02,"
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3423af1b-e39b-4d93-837c-c8edec84c197")
+		)
+		(pin "2"
+			(uuid "5942264b-6ddb-42a6-a954-ea759fd482d5")
+		)
+		(instances
+			(project "Blinky"
+				(path "/63c9e8ce-1f6e-4570-90a7-b8c1c309328a/e09c43e6-d1ac-424f-8f6f-b32a45a91117"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
